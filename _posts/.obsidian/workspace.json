@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-03-29-VUE 프로젝트_1주차.md",
+                "file": "2025-03-29-VUE 스터디_3장.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-03-29-VUE 프로젝트_1주차"
+              "title": "2025-03-29-VUE 스터디_3장"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025-03-29-VUE 프로젝트_1주차.md",
+                "file": "2025-03-29-VUE 스터디_3장.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-03-29-VUE 프로젝트_1주차"
+              "title": "Backlinks for 2025-03-29-VUE 스터디_3장"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025-03-29-VUE 프로젝트_1주차.md",
+                "file": "2025-03-29-VUE 스터디_3장.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-03-29-VUE 프로젝트_1주차"
+              "title": "Outgoing links from 2025-03-29-VUE 스터디_3장"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025-03-29-VUE 프로젝트_1주차.md",
+                "file": "2025-03-29-VUE 스터디_3장.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-03-29-VUE 프로젝트_1주차"
+              "title": "Outline of 2025-03-29-VUE 스터디_3장"
             }
           }
         ]
@@ -171,6 +171,9 @@
   "active": "fc5dd8a76b30e945",
   "lastOpenFiles": [
     "2025-03-29-hello-world.md",
-    "2025-03-29-VUE 프로젝트_1주차.md"
+    "2025-03-29-VUE 스터디_3장.md",
+    "2025-03-29-VUE 스터디_4장.md",
+    "2025-03-29-VUE 스터디_5장.md",
+    "2025-03-29-VUE 스터디_6장.md"
   ]
 }
