@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://upload.wikimedia.org/wikipedia/en/6/60/Jason_bourne_infobox.jpg"
+avatar: "https://cdn.guyso.me/image/artist/spotify/34586a307065427433455a4862644632304a6d645743.jpg?v=1729420279176"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-03-29-VUE 스터디_4장 1.md",
+                "file": "2025-03-29-VUE 스터디_5장 1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-03-29-VUE 스터디_4장 1"
+              "title": "2025-03-29-VUE 스터디_5장 1"
             }
           }
         ]
@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025-03-29-VUE 스터디_4장 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-03-29-VUE 스터디_4장 1"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025-03-29-VUE 스터디_4장 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-03-29-VUE 스터디_4장 1"
+              "title": "Outgoing links"
             }
           },
           {
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025-03-29-VUE 스터디_4장 1.md",
+                "file": "2025-03-29-VUE 스터디_5장.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-03-29-VUE 스터디_4장 1"
+              "title": "Outline of 2025-03-29-VUE 스터디_5장"
             }
           }
         ]
@@ -168,15 +166,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fc5dd8a76b30e945",
+  "active": "2b9a8b83ef090615",
   "lastOpenFiles": [
+    "2025-03-29-VUE 스터디_6장 1~.md",
+    "2025-03-29-VUE 스터디_5장 1.md",
+    "2025-03-29-VUE 스터디_4장 1.md",
+    "2025-03-29-VUE 스터디_5장.md",
     "2025-03-29-VUE 스터디_3장.md",
     "2025-03-29-VUE 스터디_4장.md",
-    "2025-03-29-VUE 스터디_4장 1.md",
-    "2025-03-29-VUE 스터디_5장 1.md",
     "2025-03-29-VUE 스터디_6장.md",
     "2025-03-29-VUE 스터디_6장 1.md",
-    "2025-03-29-VUE 스터디_5장.md",
     "2025-03-29-hello-world.md"
   ]
 }
