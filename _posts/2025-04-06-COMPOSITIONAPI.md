@@ -1,0 +1,213 @@
+---
+title: "9장 Composition API"
+date: 2025-04-06
+tags: []
+author: "이의민"
+---
+
+# 9장 Composition API
+
+## 9.1 Composition API란?
+
+Composition API는 Vue 3에서 제공하는 새로운 컴포넌트 구성 방식입니다.
+
+## 9.2 setup 메서드를 이용한 초기화
+
+```vue
+<!-- MyComponent.vue -->
+<script>
+export default {
+  setup() {
+    return { message: 'Hello from setup!' }
+  }
+}
+</script>
+<template>
+  <p>{{ message }}</p>
+</template>
+```
+
+`setup`은 컴포넌트 초기화 로직을 한 곳에서 관리합니다.
+
+## 9.3 반응성을 가진 상태 데이터
+
+### 9.3.1 ref
+
+```vue
+<script>
+import { ref } from 'vue'
+export default {
+  setup() {
+    const count = ref(0)
+    return { count }
+  }
+}
+</script>
+<template>
+  <p>{{ count }}</p>
+</template>
+```
+
+`ref`는 단일 반응형 값을 정의합니다.
+
+### 9.3.2 reactive
+
+```vue
+<script>
+import { reactive } from 'vue'
+export default {
+  setup() {
+    const state = reactive({ name: 'Vue' })
+    return { state }
+  }
+}
+</script>
+<template>
+  <p>{{ state.name }}</p>
+</template>
+```
+
+`reactive`는 객체를 반응형으로 만듭니다.
+
+## 9.4 computed
+
+```vue
+<script>
+import { ref, computed } from 'vue'
+export default {
+  setup() {
+    const count = ref(1)
+    const doubled = computed(() => count.value * 2)
+    return { count, doubled }
+  }
+}
+</script>
+<template>
+  <p>{{ doubled }}</p>
+</template>
+```
+
+`computed`는 계산된 반응형 값을 생성합니다.
+
+## 9.5 watch와 watchEffect
+
+### 9.5.1 watch
+
+```vue
+<script>
+import { ref, watch } from 'vue'
+export default {
+  setup() {
+    const count = ref(0)
+    watch(count, (newVal) => console.log(newVal))
+    return { count }
+  }
+}
+</script>
+```
+
+`watch`는 특정 값의 변화를 감시합니다.
+
+### 9.5.2 watchEffect
+
+```vue
+<script>
+import { ref, watchEffect } from 'vue'
+export default {
+  setup() {
+    const count = ref(0)
+    watchEffect(() => console.log(count.value))
+    return { count }
+  }
+}
+</script>
+```
+
+`watchEffect`는 의존성 변화를 자동으로 감지해 실행합니다.
+
+### 9.5.3 감시자 설정 해제
+
+```vue
+<script>
+import { ref, watch } from 'vue'
+export default {
+  setup() {
+    const count = ref(0)
+    const stop = watch(count, () => console.log('Watching'))
+    stop() // 감시 중지
+    return { count }
+  }
+}
+</script>
+```
+
+감시자를 해제하면 불필요한 감시를 멈출 수 있습니다.
+
+## 9.6 생명주기 훅(Life Cycle Hook)
+
+```vue
+<script>
+import { onMounted } from 'vue'
+export default {
+  setup() {
+    onMounted(() => console.log('Mounted!'))
+  }
+}
+</script>
+```
+
+생명주기 훅은 `setup` 내에서 컴포넌트 상태를 관리합니다.
+
+## 9.7 TodoList App 리팩토링
+
+```vue
+<script>
+import { ref } from 'vue'
+export default {
+  setup() {
+    const todos = ref([])
+    const addTodo = (task) => todos.value.push(task)
+    return { todos, addTodo }
+  }
+}
+</script>
+<template>
+  <ul><li v-for="todo in todos" :key="todo">{{ todo }}</li></ul>
+</template>
+```
+
+Composition API로 TodoList를 더 모듈화하고 간결하게 만듭니다.
+
+## 9.8 〈script setup〉 사용하기
+
+### 9.8.1 〈script setup〉이 기존과 다른 점
+
+```vue
+<script setup>
+const message = 'Hello from script setup!'
+</script>
+<template>
+  <p>{{ message }}</p>
+</template>
+```
+
+`<script setup>`은 더 간결한 문법으로 `setup`을 대체합니다.
+
+### 9.8.2 TodoList 앱에 〈script setup〉 적용하기
+
+```vue
+<script setup>
+import { ref } from 'vue'
+const todos = ref([])
+const addTodo = (task) => todos.value.push(task)
+</script>
+<template>
+  <ul><li v-for="todo in todos" :key="todo">{{ todo }}</li></ul>
+</template>
+```
+
+`<script setup>`으로 TodoList를 더 간단히 작성할 수 있습니다.
+
+## 9.9 마무리
+
+Composition API는 코드 재사용성과 가독성을 높여 Vue 개발을 혁신합니다.
