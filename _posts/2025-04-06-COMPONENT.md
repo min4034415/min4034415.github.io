@@ -3,6 +3,7 @@ title: "7장 컴포넌트"
 date: 2025-04-06
 tags: [VUE]
 author: "이의민"
+published: false
 ---
 
 ```markdown
