@@ -1,7 +1,7 @@
 ---
-title: ""
+title: "뷰 레이지 로딩"
 date: 2025-04-01
-category: "Vue.js, Performance Optimization, Lazy Loading"
+category: [Performance Optimization, Lazy Loading]
 tags: [VUE]
 author: "이의민"
 ---
