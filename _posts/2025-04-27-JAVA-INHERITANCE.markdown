@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "초급 개발자를 위한 자바 상속 기초"
+title: "07 상속"
 date: 2025-04-27 00:00:00 +0900
 categories: Java Programming
 ---
