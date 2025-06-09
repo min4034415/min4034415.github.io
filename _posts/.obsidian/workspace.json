@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-05-25-SQLD.md",
+                "file": "2025-06-08-SERVLET.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-25-SQLD"
+              "title": "2025-06-08-SERVLET"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "efdfc479fa2434d9",
@@ -168,15 +169,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8b805496d7e1b207",
+  "active": "f06e7eb656bbf6b5",
   "lastOpenFiles": [
-    "2025-06-08-WEB_APPLICATION.md",
-    "2025-06-08-.md",
+    "2025-06-08-INTRODUCTION.md",
+    "2025-06-08-SERVLET.md",
     "2025-05-26-GROUP-BY-HAVING.md",
+    "2025-05-25-SQLD.md",
+    "2025-04-17-RNAPP.md",
+    "2025-04-01-ARIA.md",
+    "2025-03-31-VUE-SLOT.md",
     "2025-05-26-.md",
     "Pasted image 20250526111100.png",
     "2025-05-11-NESTED.md",
-    "2025-05-25-SQLD.md",
     "2025-04-06-VUE-10.md",
     "2025-04-06-VUE-9.md",
     "2025-04-06-CURIOSITY.md",
@@ -185,7 +189,6 @@
     "2025-04-06-VUE-8.md",
     "2025-04-06-VUE-7.md",
     "2025-04-06.md",
-    "2025-03-31-VUE-SLOT.md",
     "2025-04-02-FRONTEND-RELATED-WEBSITES.md",
     "2025-04-02-REST-API.md",
     "2025-03-29-VUE-6.md",
@@ -194,8 +197,6 @@
     "2025-03-31-MEDUA-QUERY.md",
     "2025-03-31-EMMET.md",
     "2025-03-31-Media-Query.md",
-    "ccopy.md",
-    "2025-03-31-VUE-SLO.md",
-    "hihi.md"
+    "ccopy.md"
   ]
 }
