@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "efdfc479fa2434d9",
@@ -169,8 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f06e7eb656bbf6b5",
+  "active": "8b805496d7e1b207",
   "lastOpenFiles": [
+    "2025-06-08-WEB_APPLICATION.md",
+    "2025-06-08-.md",
     "2025-05-26-GROUP-BY-HAVING.md",
     "2025-05-26-.md",
     "Pasted image 20250526111100.png",
