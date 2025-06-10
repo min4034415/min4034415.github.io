@@ -9,8 +9,8 @@ author: "이의민"
 
 ### FrontController
 
-* **개념**: 모든 요청을 받고, 요청의 종류에 따라 작업을 분기하는 `Dispatcher Servlet` 입니다.
-* **위치**: MVC 패턴에서 제일 앞 단에 위치합니다.
+* **개념**: 모든 요청을 받고, 요청의 종류에 따라 작업을 분기하는 `Dispatcher Servlet` 
+* **위치**: MVC 패턴에서 제일 앞 단에 위치
 
 이 아키텍처는 클라이언트의 요청이 FrontController를 거쳐 Controller, Service, Dao, Database로 이어지는 흐름을 보여줍니다. 그리고 최종적으로 View를 통해 HTML 응답이 클라이언트로 전달됩니다.
 
@@ -43,13 +43,13 @@ private String getCommandName(HttpServletRequest request) {
 
 물론입니다! Front Controller 디자인 패턴은 웹 애플리케이션에서 자주 사용되는 아키텍처 패턴입니다. 이 패턴은 **모든 요청을 하나의 중앙 컨트롤러(Front Controller)**가 받아서 처리하게 하는 구조입니다.
 
-⸻
+---
 
 📌 정의
 
 Front Controller 패턴은 **클라이언트의 모든 요청을 단일 핸들러(컨트롤러)**가 먼저 받고, 그 요청을 적절한 처리기로 전달하거나 전처리/후처리를 담당하는 디자인 패턴입니다.
 
-⸻
+---
 
 🧩 구조
   1.  Front Controller
@@ -62,14 +62,14 @@ Front Controller 패턴은 **클라이언트의 모든 요청을 단일 핸들�
   4.  View
   •  응답 결과를 사용자에게 보여주는 부분.
 
-⸻
+---
 
 💡 예시 (Spring MVC)
 
 사용자 요청 → DispatcherServlet (Front Controller) → Controller → Service/Model → View
 
 
-⸻
+---
 
 ✅ 장점
   •  중앙 집중화
@@ -79,7 +79,7 @@ Front Controller 패턴은 **클라이언트의 모든 요청을 단일 핸들�
   •  재사용성 증가
 : 공통 코드(필터, 인터셉터 등)를 Front Controller에서 재사용 가능.
 
-⸻
+---
 
 ❌ 단점
   •  단일 지점 과부하
@@ -87,12 +87,11 @@ Front Controller 패턴은 **클라이언트의 모든 요청을 단일 핸들�
   •  복잡도 증가
 : 초기 설계가 어렵고 Dispatcher 설정이 복잡할 수 있음.
 
-⸻
 
+--- 
 🔧 언제 사용하나?
   •  웹 애플리케이션에서 요청 처리를 중앙 집중화하고 싶을 때.
   •  MVC 아키텍처를 도입할 때 (거의 필수처럼 사용됨).
 
-⸻
 
-궁금한 부분이 있거나 예제 코드가 필요하면 알려주세요!
+
