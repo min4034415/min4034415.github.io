@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d81c656694dcc3f8",
+        "id": "f85ed320859caa3a",
         "type": "tabs",
         "children": [
           {
-            "id": "53e2500a79f2ee79",
+            "id": "d4c1716f71ae715e",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20250526111100.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250526111100"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -166,15 +164,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "53e2500a79f2ee79",
+  "active": "d4c1716f71ae715e",
   "lastOpenFiles": [
+    "2025-06-09-FILTER.md",
+    "Pasted image 20250526111100.png",
     "ccopy.md",
     "2025-06-09-SESSION-COOKIE.md",
     "2025-06-09-JSP.md",
     "2025-06-09-HTML-SERVLET.md",
     "2025-06-09-FRONTCONTROLLER.md",
     "2025-06-09-FORWARD-REDIRECT.md",
-    "2025-06-09-FILTER.md",
     "2025-06-09-EL-JSTL.md",
     "2025-06-08-SERVLET.md",
     "2025-06-08-INTRODUCTION.md",
@@ -185,7 +184,6 @@
     "2025-04-01-ARIA.md",
     "2025-03-31-VUE-SLOT.md",
     "2025-05-26-.md",
-    "Pasted image 20250526111100.png",
     "2025-05-11-NESTED.md",
     "2025-04-06-VUE-10.md",
     "2025-04-06-VUE-9.md",
@@ -193,7 +191,6 @@
     "2025-04-06-KINDAHOMEWORK.md",
     "2025-04-06-.md",
     "2025-04-06-VUE-8.md",
-    "2025-04-06-VUE-7.md",
-    "2025-04-06.md"
+    "2025-04-06-VUE-7.md"
   ]
 }
