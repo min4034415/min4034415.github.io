@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f85ed320859caa3a",
+        "id": "5bd3c9a465f8e0d4",
         "type": "tabs",
         "children": [
           {
-            "id": "d4c1716f71ae715e",
+            "id": "2ad2d5b706b073dd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2025-06-09-JSP.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-06-09-JSP"
             }
           }
         ]
@@ -164,14 +168,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d4c1716f71ae715e",
+  "active": "2ad2d5b706b073dd",
   "lastOpenFiles": [
+    "2025-06-09-HTML-SERVLET.md",
+    "2025-06-09-JSP.md",
     "2025-06-09-FILTER.md",
     "Pasted image 20250526111100.png",
     "ccopy.md",
     "2025-06-09-SESSION-COOKIE.md",
-    "2025-06-09-JSP.md",
-    "2025-06-09-HTML-SERVLET.md",
     "2025-06-09-FRONTCONTROLLER.md",
     "2025-06-09-FORWARD-REDIRECT.md",
     "2025-06-09-EL-JSTL.md",
